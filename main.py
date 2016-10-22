@@ -100,6 +100,10 @@ def data(variable):
         url = 'https://www.triphobo.com/tripplans/' + variable + '-itinerary-1-day'
         url1 = "https://www.makemytrip.com/hotels/"+variable[:-4]+"-hotels.html"
         url2 = "https://www.makemytrip.com/flights/"+variable[:-4]+"-flight-tickets.html"
+        try:
+            wo = coded(variable[:-4])
+        except:
+            wo = ""
         url3 = "https://weather.com/en-IN/weather/today/l/"+coded(variable[:-4])+":1:IN"
         print url3
         url5 = "https://maps.googleapis.com/maps/api/streetview?size=600x600&location=40.720032,-73.988354&fov=90&heading=235&pitch=10&key=AIzaSyB_TCBB2MFU35bfBDMeUGC14t1bP51KgIM"
