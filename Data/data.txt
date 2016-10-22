@@ -1,0 +1,131 @@
+AGX,Agatti Island Airport,Agatti Island
+2	AMD		Ahmedabad Airport	Ahmedabad
+3	AJL		Aizawl Airport	Aizawl
+4	AKD		Akola Airport	Akola
+5	IXV		Along Airport	Along
+6	LKO		Amausi Airport	Lucknow
+7	LUH		Amritsar Airport	Ludhiana
+1	IXB		Bagdogra Airport	Bagdogra
+2	IXE		Bajpe Airport	Mangalore
+3	IXL		Bakula Rimpoche Airport	Leh
+4	RGH		Balurghat Airport	Balurghat
+5	IXD		Bamrauli Airport	Allahabad
+6	SHL		Barapani Airport	Shillong
+7	BEK		Bareli Airport	Bareli
+8	BEP		Bellary Airport	Bellary
+9	BLR		Bengaluru International Airport	Bangalore
+10	BUP		Bhatinda Airport	Bhatinda
+11	BHU		Bhavnagar Airport	Bhavnagar
+12	BHO		Bhopal Airport	Bhopal
+13	BBI		Bhubaneswar Airport	Bhubaneswar
+14	BKB		Bikaner Airport	Bikaner
+15	PAB		Bilaspur Airport	Bilaspur
+16	IXR		Birsa Munda International Airport	Ranchi
+17	GAU		Borjhar Airport	Guwahati
+1	CBD		Car Nicobar Airport	Car Nicobar
+2	IXC		Chandigarh Airport	Chandigarh
+3	MAA		Chennai International Airport	Chennai
+4	BOM		Chhatrapati Shivaji International Airport	Mumbai
+5	IXU		Chikkalthana Airport	Aurangabad
+6	COK		Cochin International Airport	Kochi
+7	COH		Cooch Behar Airport	Cooch Behar
+8	CDP		Cuddapah Airport	Cuddapah
+1	UDR		Dabok Airport	Udaipur
+2	GOI		Dabolim Airport	Goa
+3	NMB		Daman Airport	Daman
+4	DAE		Daparizo Airport	Daparizo
+5	DAI		Darjeeling Airport	Darjeeling
+6	DED		Dehra Dun Airport	Dehra Dun
+7	DEP		Deparizo Airport	Deparizo
+8	IDR		Devi Ahilyabai Holkar Airport	Indore
+9	DBD		Dhanbad Airport	Dhanbad
+10	DIB		Dibrugarh Airport	Dibrugarh
+11	DMU		Dimapur Airport	Dimapur
+12	DIU		Diu Airport	Diu
+1	DHM		Gaggal Airport	Dharamsala
+2	ISK		Gandhinagar Airport	Nasik
+3	GAY		Gaya Airport	Gaya
+4	GOP		Gorakhpur Airport	Gorakhpur
+5	JGA		Govardhanpur Airport	Jamnagar
+6	GUX		Guna Airport	Guna
+7	GWL		Gwalior Airport	Gwalior
+1	HSS		Hissar Airport	Hissar
+2	HBX		Hubli Airport	Hubli
+3	HYD		Hyderabad International Airport	Hyderabad
+1	DEL		Indira Gandhi International Airport	New Delhi
+1	JLR		Jabalpur Airport	Jabalpur
+2	JGB		Jagdalpur Airport	Jagdalpur
+3	JSA		Jaisalmer Airport	Jaisalmer
+4	PYB		Jeypore Airport	Jeypore
+5	JDH		Jodhpur Airport	Jodhpur
+1	IXH		Kailashahar Airport	Kailashahar
+2	IXQ		Kamalpur Airport	Kamalpur
+3	IXY		Kandla Airport	Kandla
+4	KNU		Kanpur Airport	Kanpur
+5	IXK		Keshod Airport	Keshod
+6	HJR		Khajuraho Airport	Khajuraho
+7	AGR		Kheria Airport	Agra
+8	IXN		Khowai Airport	Khowai
+9	KLH		Kolhapur Airport	Kolhapur
+10	KTU		Kota Airport	Kota
+11	CCJ		Kozhikode Airport	Kozhikode
+12	KUU		Kullu Manali Airport	Bhuntar Kullu.
+13	IXS		Kumbhirgram Airport	Silchar
+1	IXI		Lilabari Airport	Lilabari
+2	PNQ		Lohegaon Airport	Pune
+1	IXM		Madurai Airport	Madurai
+2	LDA		Malda Airport	Malda
+3	MOH		Mohanbari Airport	Mohanbari
+4	IMF		Municipal Airport	Imphal
+5	MZA		Muzaffarnagar Airport	Muzaffarnagar
+6	MZU		Muzaffarpur Airport	Muzaffarpur
+7	MYQ		Mysore Airport	Mysore
+1	NDC		Nanded Airport	Nanded
+2	CCU		Netaji Subhash Chandra Bose International Airport	Kolkata
+3	NVY		Neyveli Airport	Neyveli
+1	OMN		    Osmanabad Airport	Osmanabad
+1	PGH		Pantnagar Airport	Pantnagar
+2	IXT		Pasighat Airport	Pasighat
+3	IXP		Pathankot Airport	Pathankot
+4	PAT		Patna Airport	Patna
+5	CJB		Peelamedu Airport	Coimbatore
+6	PNY		Pondicherry Airport	Pondicherry
+7	PBD		Porbandar Airport	Porbandar
+8	IXZ		Port Blair Airport	Port Blair
+9	PUT		Puttaparthi Airport	Puttaparthi
+1	RPR		Raipur Airport	Raipur
+2	ATQ		Raja Sansi Airport	Amritsar
+3	RJA		Rajahmundry Airport	Rajahmundry
+4	RAJ		Rajkot Airport	Rajkot
+5	RJI		Rajouri Airport	Rajouri
+6	RMD		Ramagundam Airport	Ramagundam
+7	RTC		Ratnagiri Airport	Ratnagiri
+8	REW		Rewa Airport	Rewa
+9	RRK		Rourkela Airport	Rourkela
+10	JRH		Rowriah Airport	Jorhat
+11	BHJ		Rudra Mata Airport	Bhuj
+12	RUP		Rupsi Airport	Rupsi
+1	SXV		Salem Airport	Salem
+2	TEZ		Salonibari Airport	Tezpur
+3	IXG		Sambre Airport	Belgaum
+4	JAI		Sanganeer Airport	Jaipur
+5	TNI		Satna Airport	Satna
+6	IXJ		Satwari Airport	Jammu
+7	SSE		Sholapur Airport	Sholapur
+8	SLV		Simla Airport	Simla
+9	IXA		Singerbhil Airport	Agartala
+10	IXW		Sonari Airport	Jamshedpur
+11	NAG		Sonegaon Airport	Nagpur
+12	SXR		Srinagar Airport	Srinagar
+13	STV		Surat Airport	Surat
+1	TEI		Tezu Airport	Tezu
+2	TJV		Thanjavur Airport	Thanjavur
+3	TRV		Thiruvananthapuram International Airport	Trivandrum
+4	TIR		Tirupati Airport	Tirupati
+5	TRZ		Trichy Airport	Trichy
+6	TCR		Tuticorin Airport	Tuticorin
+1	BDQ		Vadodara Airport	Vadodara
+2	VNS		Varanasi Airport	Varanasi
+3	VGA		Vijayawada Airport	Vijayawada
+4	VTZ		Vishakhapatnam Airport	Vishakhapatnam
+1	WGC		Warangal Airport	Warangal
