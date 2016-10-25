@@ -133,47 +133,6 @@ def data(variable):
 
 
 
-@app.route('/weather/<variable>', methods=['GET','POST'])
-def weather(variable):
-    if 'username' in session:
-        username_session = escape(session['username']).capitalize()
-
-        if request.method == "POST":
-            if 'logout' in request.form:
-                print 'Logged Out'
-                session.clear()
-                return redirect(url_for("login"))
-
-        if variable in citydata():
-            return render_template('weather.html',name=variable)
-        else:
-            return "ERROR CANT LOAD"
-
-    else:
-        return redirect(url_for("home"))
-
-
-
-
-
-
-
-
-
-
-@app.route('/test', methods=['GET','POST'])
-def test():
-    return render_template('test.html')
-
-
-
-
-
-
-
-
-
-
 
 
 
