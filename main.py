@@ -185,7 +185,11 @@ def vr(variable):
         username_session = escape(session['username']).capitalize()
         z = getdata(variable)
         import random
-        k = random.randint(0, len(z) - 1)
+        print len(z)
+        if len(z) > 1:
+            k = random.randint(0, len(z) - 1)
+        else:
+            k = False
         if request.method == "POST":
             if 'logout' in request.form:
                 print 'Logged Out'
@@ -198,9 +202,15 @@ def vr(variable):
                 k = random.randint(0,len(z)-1)
         print "THIS IS VARIABLE", variable
         if variable in citydata():
-            print z[k][1], k, len(z)
+            if k == False:
+                return "ERROR, NO DATA AVAILABLE"
+            else:
+                lat = z[k][1]
+                long = z[k][2]
+                name = z[k][3]
+                print z[k][1], k, len(z)
 
-            return render_template('vr.html',lat=z[k][1],long=z[k][2],name=z[k][3])
+            return render_template('vr.html',lat=lat,long=long,name=name)
         else:
             return "ERROR CANT LOAD"
 
