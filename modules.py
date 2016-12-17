@@ -58,6 +58,8 @@ adding("Mussoorie",'30.4669358','78.0949869','New Laal Tibba')
 adding("Mussoorie",'30.4333333','78.0833333','Jaypee Residency Manor')
 adding("Goa",'15.0532139','73.9797978','Agonda Beach')
 '''
+
+
 def check(username,passw):
     import sqlite3
     conn = sqlite3.connect('user.db')
