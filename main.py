@@ -1,5 +1,5 @@
 from flask import *
-from modules import adding,check,getname,citydata,getdata
+from modules import addinguser,check,getname,citydata,getdata
 from random import *
 from weather import coded
 analytics1 = {}
@@ -45,7 +45,7 @@ def signup():
 
     if request.method == 'POST':
         if request.form['password'] == request.form['repassword']:
-            adding(request.form['username'],request.form['FirstName'], request.form['LastName'],
+            addinguser(request.form['username'],request.form['FirstName'], request.form['LastName'],
                    request.form['password'],(request.form['mobile']), request.form['email'])
             return redirect(url_for('login'))
         else:
@@ -179,4 +179,4 @@ def vr(variable):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0',port=8080,debug=True)
+    app.run(host='0.0.0.0',port=1234,debug=True)
