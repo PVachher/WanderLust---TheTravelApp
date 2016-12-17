@@ -13,6 +13,19 @@ def creatingdb():
     conn.close()
 #creatingdb()
 
+def addinguser(username,firstname,lastname,password,mobile,email):
+    import pymysql
+    db = pymysql.connect("52.66.149.217", "root", "root", "wanderlust")
+    cursor = db.cursor()
+    sql = "INSERT INTO user (`firstname`, `lastname`, `username`, `mobile`, `email`, `password`) " \
+          "VALUES ('%s','%s','%s','%s','%s','%s')" % (firstname,lastname,username,mobile,email,password)
+    try:
+        cursor.execute(sql)
+        db.commit()
+        print "user added"
+    except:
+        db.rollback()
+    db.close()
 
 def adding(location,lat,long,name):
     import sqlite3
@@ -61,27 +74,40 @@ adding("Goa",'15.0532139','73.9797978','Agonda Beach')
 
 
 def check(username,passw):
-    import sqlite3
-    conn = sqlite3.connect('user.db')
+    import pymysql
+    db = pymysql.connect("52.66.149.217", "root", "root", "wanderlust")
     print "Opened database successfully";
+    cursor = db.cursor()
+    sql = "SELECT password from user WHERE username='%s'"%(username)
+    try:
+        cursor.execute(sql)
+        for k in cursor:
+            if k[0] == passw:
+                return True
+            else:
+                return False
+    except:
+        db.rollback()
+    db.close()
 
-    cursor = conn.execute("SELECT password from user WHERE username='%s'"%(username))
-    for k in cursor:
-        if k[0] == passw:
-            return True
-        else:
-            return False
     print "Operation done successfully";
-    conn.close()
+
+print check('pv','pv')
 
 def getname(username):
-    import sqlite3
-    conn = sqlite3.connect('user.db')
-    cursor = conn.execute("SELECT firstname FROM user WHERE username = '%s'" % (username.lower()))
-    for k in cursor:
-        return k[0]
+    import pymysql
+    db = pymysql.connect("52.66.149.217", "root", "root", "wanderlust")
+    cursor = db.cursor()
+    sql = "SELECT firstname FROM user WHERE username = '%s'" % (username.lower())
+    try:
+        cursor.execute(sql)
+        for k in cursor:
+            return k[0]
+    except:
+        db.rollback()
+    db.close()
+
     #print "Operation done successfully";
-    conn.close()
 
 def citydata():
     a = open('Data/wow.txt', 'r')
